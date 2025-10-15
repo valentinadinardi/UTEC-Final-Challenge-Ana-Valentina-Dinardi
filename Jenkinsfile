@@ -30,6 +30,7 @@ pipeline {
     JMETER_IMAGE = 'jmeter-prom:latest'
     JMETER_PROM_PORT = '9270'
     JMETER_CONTAINER_NAME = 'jmeter-run'
+    BRANCH_NAME = 'master'
   }
 
   stages {

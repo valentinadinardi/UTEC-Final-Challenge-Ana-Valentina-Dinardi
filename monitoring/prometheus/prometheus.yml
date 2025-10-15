@@ -13,6 +13,3 @@ scrape_configs:
   - job_name: "jmeter"
     static_configs:
       - targets: ["jmeter-run:9270"]
-
-rule_files:
-  - rules/jmeter_rules.yml
